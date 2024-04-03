@@ -20,6 +20,11 @@ body {
   border-radius: 10px;
   color: #fff3ec;
 }
+@media (max-width: 768px) {
+  .container {
+    width: 350px;
+  }
+}
 p {
   font-weight: 600;
   font-size: 15px;
